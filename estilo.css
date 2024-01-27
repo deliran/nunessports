@@ -1,0 +1,147 @@
+@charset "UTF-8";
+/* CSS Document */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    font-family: "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", Verdana, "sans-serif";
+    background-color: #f4f4f4;
+}
+
+.header {
+    background-color:#CAA568;
+    color: #FFF;
+    padding: 5px;
+    text-align: center;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+    border-right: 1px solid #fff; /* Adiciona borda direita a cada item do menu */
+    padding-right: 10px; /* Adiciona espaçamento à direita para o caractere | */
+}
+
+.menu li:last-child {
+    border-right: none; /* Remove borda direita do último item do menu */
+    padding-right: 0; /* Remove espaçamento à direita do último item do menu */
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.menu a:hover {
+    text-decoration: underline;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 50px;
+    color: #333;
+}
+
+
+.form_cd {
+    width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    background-color: #F3E9D8;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    text-align: left; /* Alterado para alinhar à esquerda */
+    margin: auto; /* Centraliza horizontalmente */
+}
+
+.form_cd h2 {
+    color:#CAA568;
+}
+
+.form_editar {
+	width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    background-color: #F3E9D8;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    text-align: left; /* Alterado para alinhar à esquerda */
+    margin: auto; /* Centraliza horizontalmente */
+}
+
+.form_editar h2 {
+    color:#CAA568;
+}
+.excluir {
+	width: 100%;
+    max-width: 400px;
+    padding: 10px;
+    background-color: #F3E9D8;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    text-align: left; 
+    margin: auto; 
+}
+.excluir h2 {
+    color:#CAA568;
+}
+form label {
+    display: block; /* Certifica-se de que cada rótulo seja exibido em uma nova linha */
+    margin-top: 10px;
+}
+
+form input[type="text"],
+form input[type="number"],
+form textarea {
+    width: 100%; /* Preenche a largura do contêiner pai */
+    padding: 8px; /* Adiciona algum espaço interno */
+    margin-top: 5px;
+    margin-bottom: 10px; /* Adiciona algum espaço entre os campos de entrada */
+    outline: 0;
+}
+
+form input[type="submit"], 
+.btn-voltar {
+    width: 100%;
+    padding: 8px;
+    margin-top: 10px;
+    outline: 0;
+    cursor: pointer;
+}
+h2{
+	text-align: center;
+	padding: 10px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #BC8E43;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #F3E9D8;
+}
